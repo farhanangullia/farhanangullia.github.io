@@ -1,0 +1,22 @@
+{
+    "education":[
+        {
+            "title": "Aug 2016 - Jan 2020",
+            "cardTitle": "Bachelor of Computing, Information Systems",
+            "cardSubtitle":"National University of Singapore, Singapore",
+            "cardDetailedText": "Graduated with Honours",
+            "icon" : {
+                "src": "images/education/nus.png"
+            }
+        },
+        {
+            "title": "Apr 2011 - Mar 2014",
+            "cardTitle": "Diploma with Merit, Computer Engineering",
+            "cardSubtitle":"Singapore Polytechnic, Singapore",
+            "cardDetailedText": "Specialized in Networking and Applications.",
+            "icon" : {
+                "src": "images/education/sp.jpeg"
+            }
+        }
+    ]
+}

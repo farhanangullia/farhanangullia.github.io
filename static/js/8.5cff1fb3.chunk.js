@@ -1,0 +1,2 @@
+(this.webpackJsonpfarhanangullia=this.webpackJsonpfarhanangullia||[]).push([[8],{88:function(a,n,e){"use strict";e.r(n);e(0),e(90);var t=e(1);n.default=function(a){var n=a.title;return Object(t.jsx)("div",{className:"header",children:n})}}}]);
+//# sourceMappingURL=8.5cff1fb3.chunk.js.map
