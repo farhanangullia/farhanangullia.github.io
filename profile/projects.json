@@ -1,149 +1,148 @@
 {
-    "projects" : [
+    "projects": [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "title": "Terraform AWS Provider",
+            "bodyText": "A provider in Terraform is a plugin that enables interaction with an API. This includes Cloud providers such as AWS. The AWS Provider for Terraform allows you to manage and deploy resources to AWS. I have contributed features and bug fixes to this Open Source project used by millions globally.",
+            "image": "",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": "https://github.com/hashicorp/terraform-provider-aws",
+                    "text": "GitHub"
+                }
+            ],
+            "tags": [
+                "Go",
+                "Terraform",
+                "AWS"
+            ]
+        },
+        {
+            "title": "Chaos Toolkit AZ Failure Extension for AWS",
+            "bodyText": "This project is a collection of actions, gathered as an extension to the Chaos Toolkit to simulate an Availability Zone (AZ) failure across multiple AWS services for you to test the resiliency of your hosted applications. This project is purposefully built for simulating AZ failures.",
+            "image": "https://chaostoolkit.org/static/images/chaos-toolkit-full.svg",
+            "links": [
+                {
+                    "href": "https://github.com/awslabs/aws-az-failure-chaostoolkit",
+                    "text": "GitHub"
                 },
                 {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": "https://pypi.org/project/aws-az-failure-chaostoolkit",
+                    "text": "PyPI"
                 }
             ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
+            "tags": [
+                "Python",
+                "Chaos Toolkit",
+                "AWS",
+                "Chaos Engineering",
+                "Open Source"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "title": "Campus Shuttle Mobile App",
+            "bodyText": "Mobile app for viewing bus timings on campus and routes.",
+            "image": "",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
+                    "href": "https://github.com/farhanangullia/campus_shuttle_flutter",
+                    "text": "GitHub"
+                }
+            ],
+            "tags": [
+                "Flutter",
+                "Dart",
+                "Mobile",
+                "iOS",
+                "Android"
+            ]
+        },
+        {
+            "title": "NAS",
+            "bodyText": "Network Access Service is a collection of Cloud Native Go microservices and event driven workers for providing allow list requests of AWS WAF through HTTP APIs.",
+            "image": "",
+            "links": [
+                {
+                    "href": "https://github.com/farhanangullia/nas",
+                    "text": "GitHub"
+                }
+            ],
+            "tags": [
+                "Go",
+                "Python",
+                "Terraform",
+                "Docker",
+                "Container",
+                "Microservice",
+                "Event driven",
+                "AWS Lambda",
+                "AWS App Runner",
+                "Amazon DynamoDB"
+            ]
+        },
+        {
+            "title": "Scheduled switch for Terraform managed resources on AWS",
+            "bodyText": "This Terraform module allows you to apply a pattern of scheduled EventBridge events to manage your Terraform resources. It could be used to simply create, update or destroy resources on schedule. An example where this pattern could be applied to is when you have Terraform managed resources that are incurring costs during unutilized periods of time. Such a solution to spin resources up and down on schedule could help with significant cost savings.",
+            "image": "https://github.com/aws-samples/terraform-aws-scheduled-switch/blob/main/docs/switch-with-mwaa-example-architecture.png?raw=true",
+            "links": [
+                {
+                    "href": "https://github.com/aws-samples/terraform-aws-scheduled-switch",
+                    "text": "GitHub"
                 },
                 {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "href": "https://registry.terraform.io/modules/farhanangullia/scheduled-switch/aws/latest",
+                    "text": "Terraform Registry"
                 }
             ],
-            "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+            "tags": [
+                "Terraform",
+                "AWS",
+                "Amazon MWAA",
+                "Amazon EventBridge"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "title": "Progressive Delivery in Amazon EKS using Argo Rollouts",
+            "bodyText": "Sample containerized application and Kubernetes infrastructure for metrics driven progressive delivery showcase with blue/green and canary deployments.",
+            "image": "",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "href": "https://github.com/aws-samples/amazon-eks-argo-rollouts",
+                    "text": "GitHub"
                 }
             ],
-            "tags" : [
+            "tags": [
+                "Python Flask",
+                "Helm",
+                "Terraform",
+                "Amazon EKS",
+                "AWS App Mesh",
+                "Docker",
+                "GitOps",
+                "Argo Rollouts",
+                "Grafana",
+                "Prometheus"
+            ]
+        },
+        {
+            "title": "Timetable Constraint Solver on AWS Lambda",
+            "bodyText": "A sample serverless project for deploying a Java constraint solver by OptaPlanner as a container on AWS Lambda.",
+            "image": "",
+            "links": [
+                {
+                    "href": "https://github.com/farhanangullia/optaplanner-timetable-solver-aws-lambda",
+                    "text": "GitHub"
+                },
+                {
+                    "href": "https://medium.com/@farhanangullia/running-a-serverjava-constraint-solver-serverless-on-aws-c497a69a309c",
+                    "text": "Medium"
+                }
+            ],
+            "tags": [
                 "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "OptaPlanner",
+                "Constraint Solver",
+                "AWS Lambda",
+                "Serverless"
             ]
         }
     ]
