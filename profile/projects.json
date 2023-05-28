@@ -8,6 +8,10 @@
                 {
                     "href": "https://github.com/farhanangullia/chaos-playground",
                     "text": "GitHub"
+                },
+                {
+                    "href": "https://chaosplayground.netlify.app",
+                    "text": "Demo"
                 }
             ],
             "tags": [
