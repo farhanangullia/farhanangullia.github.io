@@ -1,6 +1,49 @@
 {
     "projects": [
         {
+            "title": "Chaos Playground",
+            "bodyText": "This web portal is composed of micro apps of various software and architectural patterns on various use cases for developers and architects to practice chaos experiments against.",
+            "image": "https://github.com/farhanangullia/chaos-playground/blob/main/docs/chaos-playground.png?raw=true",
+            "links": [
+                {
+                    "href": "https://github.com/farhanangullia/chaos-playground",
+                    "text": "GitHub"
+                }
+            ],
+            "tags": [
+                "React",
+                "Go",
+                ".NET",
+                "Microservices",
+                "Chaos Engineering",
+                "Containers",
+                "Open Source"
+            ]
+        },
+        {
+            "title": "Amazon EKS LitmusChaos Demo",
+            "bodyText": "This repository contains sample templates and microservices for a session on Chaos Engineering I built and presented at AWS Summit ASEAN 2023.",
+            "image": "https://github.com/aws-samples/amazon-eks-litmus-chaos/raw/main/docs/workload-archi.png",
+            "links": [
+                {
+                    "href": "https://github.com/aws-samples/amazon-eks-litmus-chaos",
+                    "text": "GitHub"
+                }
+            ],
+            "tags": [
+                "AWS",
+                "Amazon EKS",
+                "Go",
+                "React",
+                "Observability",
+                "OpenTelemetry",
+                "Chaos Engineering",
+                "Grafana",
+                "Prometheus",
+                "Summit Demo"
+            ]
+        },
+        {
             "title": "Terraform AWS Provider",
             "bodyText": "A provider in Terraform is a plugin that enables interaction with an API. This includes Cloud providers such as AWS. The AWS Provider for Terraform allows you to manage and deploy resources to AWS. I have contributed features and bug fixes to this Open Source project used by millions globally.",
             "image": "",
