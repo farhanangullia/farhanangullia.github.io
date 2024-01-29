@@ -28,7 +28,7 @@
             ]
         },
         {
-            "title": "Accelerate your deployment of web applications and API services on AWS App Runner",
+            "title": "AWS Innovate 2023 | Accelerate your deployment of web applications and API services on AWS App Runner",
             "bodyText": "Web applications and APIs are vital for powering various aspects of customers' operations, ranging from user-friendly sites, mobile apps to complex backend services handling business logic. However, ensuring optimal deployment with scalability can be challenging due to the multitude of underlying resources and configurations involved. In this session, learn how to use AWS App Runner, for the full application life cycle from development to production. Understand how AWS App Runner enables you to simplify the entire process of running containerized web applications and APIs, so you can focus on building and refining applications, without worrying about handling complex infrastructure and deployment operations. I also demonstrate how to deploy APIs to power a web application.",
             "image": "images/awsinnovate2023.png",
             "links": [
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "title": "Progressive delivery at scale using Argo Rollouts with Amazon EKS and AWS App Mesh",
+            "title": "AWS Innovate 2022 | Progressive delivery at scale using Argo Rollouts with Amazon EKS and AWS App Mesh",
             "bodyText": "Doing a progressive delivery of software in a containerized environment is becoming the norm. In this session, I cover the importance of Canary or Blue/Green deployment in Amazon EKS, and how you can achieve these deployments using Argo Rollouts in a GitOps environment. We also share how to implement Blue/Green and Canary based deployments in an Amazon EKS and AWS App Mesh environment using Argo Rollouts. Learn how to query and interpret metrics to verify key KPIs and drive automated promotion or rollback during canary or blue/green deployments. Discover how to achieve zero downtime deployments.",
             "image": "images/awsinnovate2022.png",
             "links": [
