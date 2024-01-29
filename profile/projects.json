@@ -1,6 +1,87 @@
 {
     "projects": [
         {
+            "title": "AWS Summit ASEAN 2023 | Practising chaos engineering for resiliency in Kubernetes",
+            "bodyText": "As businesses adopt distributed microservice architectures and run containerised workloads on platforms such as Amazon EKS, identifying weaknesses in infrastructure and applications can be challenging. To address this, chaos engineering practices can be used to identify and understand systemic weaknesses through experiments, to prevent workload outages. LitmusChaos is an open source Chaos Engineering platform that enables teams to identify weaknesses by inducing chaos tests in a controlled way. In this session, I demonstrate how developers and SREs can practice Chaos Engineering on Amazon EKS clusters with LitmusChaos, based on modern Chaos Engineering principles. ",
+            "image": "images/awssummitasean2023.png",
+            "links": [
+                {
+                    "href": "https://github.com/aws-samples/amazon-eks-litmus-chaos",
+                    "text": "GitHub"
+                },
+                {
+                    "href": "https://www.youtube.com/watch?v=-DXRTEGH6tA",
+                    "text": "YouTube"
+                }
+            ],
+            "tags": [
+                "AWS",
+                "Amazon EKS",
+                "Go",
+                "React",
+                "Observability",
+                "OpenTelemetry",
+                "Chaos Engineering",
+                "Grafana",
+                "Prometheus",
+                "Summit Demo"
+            ]
+        },
+        {
+            "title": "Accelerate your deployment of web applications and API services on AWS App Runner",
+            "bodyText": "Web applications and APIs are vital for powering various aspects of customers' operations, ranging from user-friendly sites, mobile apps to complex backend services handling business logic. However, ensuring optimal deployment with scalability can be challenging due to the multitude of underlying resources and configurations involved. In this session, learn how to use AWS App Runner, for the full application life cycle from development to production. Understand how AWS App Runner enables you to simplify the entire process of running containerized web applications and APIs, so you can focus on building and refining applications, without worrying about handling complex infrastructure and deployment operations. I also demonstrate how to deploy APIs to power a web application.",
+            "image": "images/awsinnovate2023.png",
+            "links": [
+                {
+                    "href": "https://resources.awscloud.com/aws-modern-applications-innovate-en/accelerate-your-deployment-of-web-applications-and-api-services-on-aws-app-runner-aws-innovate-modern-apps",
+                    "text": "Presentation"
+                },
+                {
+                    "href": "https://mktg-apac.s3.ap-southeast-1.amazonaws.com/FY23+Q4+Innovate+Modern+Apps/Handouts/Move+and+modernize+your+apps+/Farhan+Angullia_Accelerate+your+deployment+of+web+applications+and+API+services.pdf",
+                    "text": "Slides"
+                }
+            ],
+            "tags": [
+                "API",
+                "Containers",
+                "DevOps",
+                "Development",
+                "AWS App Runner",
+                "Docker"
+            ]
+        },
+        {
+            "title": "Progressive delivery at scale using Argo Rollouts with Amazon EKS and AWS App Mesh",
+            "bodyText": "Doing a progressive delivery of software in a containerized environment is becoming the norm. In this session, I cover the importance of Canary or Blue/Green deployment in Amazon EKS, and how you can achieve these deployments using Argo Rollouts in a GitOps environment. We also share how to implement Blue/Green and Canary based deployments in an Amazon EKS and AWS App Mesh environment using Argo Rollouts. Learn how to query and interpret metrics to verify key KPIs and drive automated promotion or rollback during canary or blue/green deployments. Discover how to achieve zero downtime deployments.",
+            "image": "images/awsinnovate2022.png",
+            "links": [
+                {
+                    "href": "https://github.com/aws-samples/amazon-eks-argo-rollouts",
+                    "text": "GitHub"
+                },
+                {
+                    "href": "https://resources.awscloud.com/aws-modern-applications-innovate-en/progressive-delivery-at-scale-using-argo-rollouts-with-amazon-eks-and-aws-app-mesh-aws-innovate",
+                    "text": "Presentation"
+                },
+                {
+                    "href": "https://mktg-apac.s3.ap-southeast-1.amazonaws.com/FY22+Q4+Innovate+Modern+Apps/VODs/Handouts/Move+and+modernize+your+applications+track/Progressive+delivery+at+scale+using+Argo+Rollouts+-+FINAL.pdf",
+                    "text": "Slides"
+                }
+            ],
+            "tags": [
+                "Python Flask",
+                "Helm",
+                "Terraform",
+                "Amazon EKS",
+                "AWS App Mesh",
+                "Docker",
+                "GitOps",
+                "Argo Rollouts",
+                "Grafana",
+                "Prometheus"
+            ]
+        },
+        {
             "title": "Chaos Playground",
             "bodyText": "This web portal is composed of micro apps of various software and architectural patterns on various use cases for developers and architects to practice chaos experiments against.",
             "image": "https://github.com/farhanangullia/chaos-playground/blob/main/docs/chaos-playground.png?raw=true",
@@ -25,32 +106,9 @@
             ]
         },
         {
-            "title": "Amazon EKS LitmusChaos Demo",
-            "bodyText": "This repository contains sample templates and microservices for a session on Chaos Engineering I built and presented at AWS Summit ASEAN 2023.",
-            "image": "https://github.com/aws-samples/amazon-eks-litmus-chaos/raw/main/docs/workload-archi.png",
-            "links": [
-                {
-                    "href": "https://github.com/aws-samples/amazon-eks-litmus-chaos",
-                    "text": "GitHub"
-                }
-            ],
-            "tags": [
-                "AWS",
-                "Amazon EKS",
-                "Go",
-                "React",
-                "Observability",
-                "OpenTelemetry",
-                "Chaos Engineering",
-                "Grafana",
-                "Prometheus",
-                "Summit Demo"
-            ]
-        },
-        {
             "title": "Terraform AWS Provider",
             "bodyText": "A provider in Terraform is a plugin that enables interaction with an API. This includes Cloud providers such as AWS. The AWS Provider for Terraform allows you to manage and deploy resources to AWS. I have contributed features and bug fixes to this Open Source project used by millions globally.",
-            "image": "",
+            "image": "https://hashicorp.github.io/field-workshops-terraform/slides/aws/terraform-oss/images/tf_aws.png",
             "links": [
                 {
                     "href": "https://github.com/hashicorp/terraform-provider-aws",
@@ -86,21 +144,50 @@
             ]
         },
         {
-            "title": "Campus Shuttle Mobile App",
-            "bodyText": "Mobile app for viewing bus timings on campus and routes.",
-            "image": "",
+            "title": "Scheduled switch for Terraform managed resources on AWS",
+            "bodyText": "This Terraform module allows you to apply a pattern of scheduled EventBridge events to manage your Terraform resources. It could be used to simply create, update or destroy resources on schedule. An example where this pattern could be applied to is when you have Terraform managed resources that are incurring costs during unutilized periods of time. Such a solution to spin resources up and down on schedule could help with significant cost savings.",
+            "image": "https://github.com/aws-samples/terraform-aws-scheduled-switch/blob/main/docs/switch-with-mwaa-example-architecture.png?raw=true",
             "links": [
                 {
-                    "href": "https://github.com/farhanangullia/campus_shuttle_flutter",
+                    "href": "https://github.com/aws-samples/terraform-aws-scheduled-switch",
                     "text": "GitHub"
+                },
+                {
+                    "href": "https://aws.amazon.com/blogs/mt/schedule-automated-operations-for-your-terraform-managed-resources-on-aws",
+                    "text": "Blog"
+                },
+                {
+                    "href": "https://registry.terraform.io/modules/farhanangullia/scheduled-switch/aws/latest",
+                    "text": "Terraform Registry"
                 }
             ],
             "tags": [
-                "Flutter",
-                "Dart",
-                "Mobile",
-                "iOS",
-                "Android"
+                "Terraform",
+                "AWS",
+                "Amazon MWAA",
+                "Amazon EventBridge"
+            ]
+        },
+        {
+            "title": "Timetable Constraint Solver on AWS Lambda",
+            "bodyText": "A sample serverless project for deploying a Java constraint solver by OptaPlanner as a container on AWS Lambda.",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*pXQ84Mv5EQ93iMBWqJu-nQ.png",
+            "links": [
+                {
+                    "href": "https://github.com/farhanangullia/optaplanner-timetable-solver-aws-lambda",
+                    "text": "GitHub"
+                },
+                {
+                    "href": "https://medium.com/@farhanangullia/running-a-serverjava-constraint-solver-serverless-on-aws-c497a69a309c",
+                    "text": "Blog"
+                }
+            ],
+            "tags": [
+                "Java",
+                "OptaPlanner",
+                "Constraint Solver",
+                "AWS Lambda",
+                "Serverless"
             ]
         },
         {
@@ -127,69 +214,21 @@
             ]
         },
         {
-            "title": "Scheduled switch for Terraform managed resources on AWS",
-            "bodyText": "This Terraform module allows you to apply a pattern of scheduled EventBridge events to manage your Terraform resources. It could be used to simply create, update or destroy resources on schedule. An example where this pattern could be applied to is when you have Terraform managed resources that are incurring costs during unutilized periods of time. Such a solution to spin resources up and down on schedule could help with significant cost savings.",
-            "image": "https://github.com/aws-samples/terraform-aws-scheduled-switch/blob/main/docs/switch-with-mwaa-example-architecture.png?raw=true",
-            "links": [
-                {
-                    "href": "https://github.com/aws-samples/terraform-aws-scheduled-switch",
-                    "text": "GitHub"
-                },
-                {
-                    "href": "https://registry.terraform.io/modules/farhanangullia/scheduled-switch/aws/latest",
-                    "text": "Terraform Registry"
-                }
-            ],
-            "tags": [
-                "Terraform",
-                "AWS",
-                "Amazon MWAA",
-                "Amazon EventBridge"
-            ]
-        },
-        {
-            "title": "Progressive Delivery in Amazon EKS using Argo Rollouts",
-            "bodyText": "Sample containerized application and Kubernetes infrastructure for metrics driven progressive delivery showcase with blue/green and canary deployments.",
+            "title": "Campus Shuttle Mobile App",
+            "bodyText": "Mobile app for viewing bus timings on campus and routes.",
             "image": "",
             "links": [
                 {
-                    "href": "https://github.com/aws-samples/amazon-eks-argo-rollouts",
+                    "href": "https://github.com/farhanangullia/campus_shuttle_flutter",
                     "text": "GitHub"
                 }
             ],
             "tags": [
-                "Python Flask",
-                "Helm",
-                "Terraform",
-                "Amazon EKS",
-                "AWS App Mesh",
-                "Docker",
-                "GitOps",
-                "Argo Rollouts",
-                "Grafana",
-                "Prometheus"
-            ]
-        },
-        {
-            "title": "Timetable Constraint Solver on AWS Lambda",
-            "bodyText": "A sample serverless project for deploying a Java constraint solver by OptaPlanner as a container on AWS Lambda.",
-            "image": "",
-            "links": [
-                {
-                    "href": "https://github.com/farhanangullia/optaplanner-timetable-solver-aws-lambda",
-                    "text": "GitHub"
-                },
-                {
-                    "href": "https://medium.com/@farhanangullia/running-a-serverjava-constraint-solver-serverless-on-aws-c497a69a309c",
-                    "text": "Medium"
-                }
-            ],
-            "tags": [
-                "Java",
-                "OptaPlanner",
-                "Constraint Solver",
-                "AWS Lambda",
-                "Serverless"
+                "Flutter",
+                "Dart",
+                "Mobile",
+                "iOS",
+                "Android"
             ]
         }
     ]
